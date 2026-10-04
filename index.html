@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hafta1-1</title>
+</head>
+<body bgcolor="Grey">
+
+    <!-- Başlık ve Temel Metin Stilleri -->
+    <h1><center><font color="orange" size="7">Sayfamıza Hoşgeldiniz</font></center></h1>
+    <p><center>Bu yazılar HTML etiketi ile yazılmıştır...</center></p>
+    <p><center><b>Bu yazı koyu</b></center></p>
+    <p><center><i>Bu yazı italik</i></center></p>
+    <p><center><u>Bu yazı altı çizili</u></center></p>
+    <p><center><font color="blue" size="5">Bu yazı mavi</font></center></p>
+
+    <p>---------------------------------------------------------------------------------------------------------</p>
+
+    <!-- İç İçe Listeler (Sistem ve Makina) -->
+    <p><ol>Sistem
+        <ol type="a">
+            <li>Bilgisayar
+                <ol type="a">
+                    <li>Sistem1</li>
+                    <li>Sistem2</li>
+                    <li>Sistem3</li>
+                </ol>
+            </li>
+            <li>Makina
+                <ul type="a">
+                    <li>makina1</li>
+                    <li>makina2</li>
+                    <li>makina3</li>
+                </ul>
+            </li>
+        </ol>
+    </ol></p>
+
+    <p>---------------------------------------------------------------------------------------------------------</p>
+
+    <!-- Dersler Listesi (Fizik ve Kimya) -->
+    <p><ul>Dersler
+        <ul>
+            <li type="circle">Fizik
+                <ul>
+                    <li>basınc</li>
+                    <li>yercekimi</li>
+                    <li>direnc</li>
+                </ul>
+            </li>
+            <li type="a">Kimya
+                <ul>
+                    <li>simya</li>
+                    <li>karbonlar</li>
+                    <li>elektron</li>
+                </ul>
+            </li>
+        </ul>
+    </ul></p>
+
+    <p>---------------------------------------------------------------------------------------------------------</p>
+
+    <!-- Günler -->
+    <p><center>Pazartesi ders var <br> Salı ders yok <br> Çarşamba ders var <br> perşembe ders yok <br> cuma ders var   </center></p>
+
+    <p>---------------------------------------------------------------------------------------------------------</p>
+
+    <!-- Renkli Yazılar -->
+    <p><font color="purple" size="10">ilkbahar</font> </p>
+    <p><font color="black" size="9">Yaz</font> </p>
+    <p><font color="brown" size="8">Sonbahar</font> </p>
+    <p><font color="yellow" size="7">Kış</font> </p>
+
+    <p>---------------------------------------------------------------------------------------------------------</p>
+
+    <!-- Açıklama ve Tanımlama Listeleri -->
+    <font face="tahoma" size="5" color="red">NELER ÖĞRENDİK?</font>
+    
+    <dl>
+        <dt><font face="tahoma" size="4" color="blue">Sıralı Listeler</font> </dt>
+        <dd><font face="tahoma" size="3" color="black">Bu listede mantık aynıdır.Yalnız burada rakam ve harf yerine küçük daire ve kareler kullanılır.Etiket olarak <ul>...</ul> kullanılır.Liste maddeleri için yine</font></dd>
+        
+        <li>etiketi kullanılır.Type parametresi olarak maddenin şeklini gösteren parametre type parametresidir.Bu parametre 3 değer alır:
+            1)type="circle">içi boş daire<br>
+            2)type="square">içi dolu kare<br>
+            3)type="disc">içi dolu daire
+        </li>
+    </dl>
+
+    <dt><font face="tahoma" size="4" color="blue">Tanımlama Listeleri</font> </dt>
+    <dd><font face="tahoma" size="2" color="black">Bu listelemede madde başlarına işaret kullanılmaz, sadece her maddenin başlığı ile gövdesi birbirinden ayrılarak yazılır.Bu tip bir listeleme için <dl>...</dl> etiketleri kullanılır.Maddelerin başlığını göstermek için</font>
+        <dt>
+            (definition list)
+            <dd>maddenin gövdesini oluşturur.Madde başlıklarını ve gövdesini farklı fontlarla yazmak için font etiketini kullanılmalıdır.</dd>
+        </dt>
+    </dd>
+
+    <p>---------------------------------------------------------------------------------------------------------</p>
+
+    <!-- Bilgilendirme Metinleri -->
+    <p>
+        <ol>etiketleri arasında yazılır, bu etiketler listenin başladığını ve bittiğini gösterir.Listenin maddelerinin başına <li>(list item) etiketi getirilir.Bu etiket kapatılamaz.01 etiketinin alt parametreleri olan; type:listenin rakamlamı harflemi başlayacağını söyler, start:ise hangi rakam ya da harfle başlayacağını belirtir. Compact parametresi: listenin mümkün olduğunca minimum satır aralığına sahip olmasını sağlar.</ol>
+        <dt><font face="tahoma" size="4" color="blue">Sırasız Listeler</font></dt>
+        <dd><font face="tahoma" size="2" color="black">Bu tip listelerde mantık aynıdır.Yalnız burada rakam ve harf yerine küçük daire ve kareler kullanılır.Etiket olarak &lt;ul&gt;...&lt;/ul&gt; kullanılır.Liste maddeleri için yine</font></dd>
+        <li>etiketi kullanılır.Type parametresi olarak maddenin şeklini gösteren parametre type parametresidir.Bu parametre 3 değişik şekil alır:</li>
+        type="circle" içi boş daire<br>
+        type="square" içi dolu kare<br>
+        type="disc" içi dolu daire
+    </p>
+
+    <dt><font face="tahoma" size="4" color="blue">Tanımlama Listeleri</font></dt>
+    <dd><font face="tahoma" size="2" color="black">Bu listelemede madde başına işaret kullanılmaz, sadece her maddenin başlığı ile gövdesi birbirinden ayrılarak yazılır.Bu tip bir listeleme için &lt;dl&gt;...&lt;/dl&gt; etiketleri kullanılır.Maddelerin başlığını göstermek için</font>
+        <dt>
+            (definition list)
+            <dd><font face="tahoma" size="2" color="black">maddenin gövdesini oluşturur.Madde başlıklarını ve gövdesini farklı fontlarla yazmak için font etiketini kullanılmalıdır.</font></dd>
+        </dt>
+    </dd>
+
+</body>
+</html>
